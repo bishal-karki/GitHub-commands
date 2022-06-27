@@ -1,7 +1,31 @@
 Commands in Git:
+git clone url folder_name(opt) --> to clone github repository in our computer.
+rm -rf .git --> to untrack all files and folder and delete .git file
 git init --> to make git repository
 git status --> to check the status of files staged or not/ modified or not
 git add --a --> to stage all files
 git add filename --> to stage one particular file
 git commit -m "message" --> to commit files that are staged.
 git log --> to see the commit history.
+    to ignore files or folder
+    make a file named .gitignore
+    type the name of file or folder inside it.
+    ex-- *.log --> to ignore all file which extension is .log
+    dir/ --> to ignore the folder which name is dir
+git diff --> compares working directory with stage area
+git diff --staged
+git commit -a -m "message" --> to directly commit bypassing staging area.
+git rm file_name --> to remove file
+git mv old_name new_name --> to rename
+git rm --cached file_name --> to untrack file
+git log -p --> to see the changes
+    git log -p -2
+    git log --stat
+    git log --preety=short
+    git log --preety=full
+    git log --since=2.days
+
+git  restore --staged file--> to remove file staging area
+
+
+  
