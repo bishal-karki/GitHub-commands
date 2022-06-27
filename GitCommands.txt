@@ -26,6 +26,9 @@ git log -p --> to see the changes
     git log --since=2.days
 
 git  restore --staged file--> to remove file staging area
+git chechout --  file.name --> to unmodify to last commit
+git push -u origin master --> to push our files
+
 
 
   
