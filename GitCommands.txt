@@ -1,0 +1,7 @@
+Commands in Git:
+git init --> to make git repository
+git status --> to check the status of files staged or not/ modified or not
+git add --a --> to stage all files
+git add filename --> to stage one particular file
+git commit -m "message" --> to commit files that are staged.
+git log --> to see the commit history.
