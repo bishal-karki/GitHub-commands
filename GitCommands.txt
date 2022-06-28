@@ -28,6 +28,13 @@ git log -p --> to see the changes
 git  restore --staged file--> to remove file staging area
 git chechout --  file.name --> to unmodify to last commit
 git push -u origin master --> to push our files
+git checkout -b branch_name  --> to create branch_name
+git chechout branch_name --> to change branch_name
+git merge branch_name --> from master branch; to merge branch_name with master
+git branch --> to see list of branches
+git branch -d branch_name --> to delete branch with warning in our computer
+git branch -D branch_name --> to delete branch in our computer
+git push -d origin branch_name --> to delete branch from github
 
 
 
